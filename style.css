@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: courier,monospace;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100;
+  position: relative;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+#button {
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  background-color: white;
+  border: 1px;
+  outline:none;
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size:20px;
+  font-family: courier,monospace;
+  margin:4px 2px;
+}
+#button:hover{
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+#button:focus{
+  background-color:black;
+  color:white;
+}
+}

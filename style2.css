@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  font-family: courier,monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  opacity:0.5;
+}
+li {
+  float: left;
+}
+.style{
+  float:right;
+}
+li a {
+  display: block;
+  color:#0F2540;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  transition-duration: 0.3s;
+  background-color:black;
+  color:white;
+  opacity:0.5;
+}
+li a:visted{
+  background-color:grey;
+  color:black;
+  opacity:0.3;
+}
+
+.image:hover {
+  transition-duration: 0.4s;
+  opacity: 0.8;
+  filter: blur(5px);
+  backface-visibility: hidden;
+}
+table,caption{
+  color:white;
+  font-family: courier,sans-serif;
+}
+table, th, td {
+  background-color: black;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align:center;
+}
+table{
+  border-spacing: 15px;
+}
+p {
+  color:white;
+  display: block;
+}
+#button {
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 425%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  background-color: white;
+  border: 1px;
+  outline:none;
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size:20px;
+  font-family: courier,monospace;
+  margin:4px 2px;
+}
+#button:hover{
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+#button:focus{
+  background-color:black;
+  color:white;
+}
