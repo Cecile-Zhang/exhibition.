@@ -1,4 +1,0 @@
-git init
-git remote add origin git@github.com:Cecile-Zhang/exhibition.io.git
-git commit -am “Setting up Jekyll!”
-git push -u origin master
